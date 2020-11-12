@@ -1,0 +1,192 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    margin: 10px;
+}
+
+.logo {
+    /* border: 5px dotted aqua; */
+    margin: 10px;
+}
+
+h1 {
+    /* border: 5px dotted aqua; */
+    padding-top: 150px;
+    margin: 10px;
+    color: #01233f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #01233f;
+    margin: 10px;
+    padding: 25px;
+}
+
+.content {
+    display: flex;
+    margin: 5px;
+    /* background-color: lightblue; */
+    flex-wrap: wrap;
+}
+
+.container--left {
+    flex: 75%;
+}
+
+.container--right {
+    flex: 25%;
+}
+
+.fishList {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fish__image {
+    margin: 10px;
+    height: 200px;
+}
+
+.fish {
+    border: 5px dotted rgba(173, 216, 230, 0.5);
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+    background-color: white;
+}
+
+.fish__name {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.quotes {
+    /* border: 5px dotted #01233f; */
+    margin: 0px -1000px 0px -100px;
+    padding: 100px;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+.quote {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column; 
+    padding-left: 100px;
+    font-size: 48px;
+    
+}
+
+.locations {
+    /* border: 5px dotted aqua; */
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.tankTips {
+    border: 5px dotted #01233f;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.location__img {
+    height: 250px;
+    margin: 10px;
+}
+
+.location {
+    border: 5px dotted rgba(173, 216, 230, 0.5);
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+    background-color: white;
+}
+
+.locations_header {
+    flex: display;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header {
+    display: flex;
+}
+
+header img {
+    height: 8em;
+}
+
+.logo {
+    height: 8em;
+    border: 5px dotted aqua;
+}
+
+.content {
+    display: flex;
+}
+
+.container--left {
+    flex: 3;
+    border: 5px dotted aqua;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container--right {
+    flex: 1;
+}
+
+.fish__image {
+    height: 15em;
+}
+
+.location__img {
+    height: 15em;
+}
+
+.container article {
+    margin-bottom: 25px;
+} */
