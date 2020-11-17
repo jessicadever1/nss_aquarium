@@ -11,6 +11,7 @@ header {
 .logo {
     /* border: 5px dotted aqua; */
     margin: 10px;
+    flex-grow: 1;
 }
 
 h1 {
@@ -20,15 +21,22 @@ h1 {
     color: #01233f;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 72px;
+    flex-grow: 3;
 }
 
 h2 {
     display: flex;
     justify-content: center;
     color: #01233f;
-    margin: 10px;
+    /* margin: 10px; */
     padding: 25px;
+    /* background-color: rgba(173, 216, 230, 0.473); */
 }
+
+/* .my_fish {
+    background-color: rgba(173, 216, 230, 0.473);
+    margin: 0px -100px 0px -20px;
+} */
 
 .content {
     display: flex;
@@ -39,6 +47,10 @@ h2 {
 
 .container--left {
     flex: 75%;
+}
+
+.body {
+    font-family: ;
 }
 
 .container--right {
@@ -55,6 +67,7 @@ h2 {
 .fish__image {
     margin: 10px;
     height: 200px;
+    justify-content: center;
 }
 
 .fish {
@@ -63,6 +76,7 @@ h2 {
     padding: 10px;
     justify-content: center;
     background-color: white;
+    flex-grow: 1;
 }
 
 .fish__name {
