@@ -1,32 +1,29 @@
 const fishCollection = [
     {
+        image: "Bruce.png",
         name: "Bruce",
         species: "Great White Shark",
         length: "6 feet",
-        harvestSite: "Great Barrier Reef",
-        diet: "not fish",
-        age: 7,
-        image: "logo.png"
+        location: "Great Barrier Reef",
+        diet: "Not fish"
     },
 
     {
+        image: "Flounder.png",
         name: "Flounder",
         species: "Blue Angelfish",
         length: "6 inches",
-        harvestSite: "Disney",
-        diet: "algea",
-        age: 5,
-        image: "logo.png"
+        location: "Disney",
+        diet: "Algea"
     },
 
     {
+        image: "Ariel.png",
         name: "Ariel",
         species: "Mermaid",
         length: "5 feet, 1 inch",
-        harvestSite: "Disney",
-        diet: "cake",
-        age: 16,
-        image: "logo.png"
+        location: "Disney",
+        diet: "Cake"
     }
 ]
 

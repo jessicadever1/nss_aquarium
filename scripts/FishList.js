@@ -1,13 +1,20 @@
+import { useFish } from './FishDataProvider.js'
+import { Fish } from './Fish.js'
+
 export const FishList = () => {
 
     // Get a reference to the `<article class="content">` element
-    const contentElement = document.querySelector("insert selector here")
-    const fishes = useFish()
+    const contentElement = document.querySelector(".fishList")
+    const allTheFish = useFish()
 
-    // Add to the existing HTML in the content element
-    contentElement.innerHTML += `
-        <article class="fishList">
-            All the fish go here!
-        </article>
-    `
+    for (const fishObject of allTheFish) {
+        // console.log("one fish?", fishObject)
+        const fishHTML = Fish(fishObject)
+        // console.log(fishHTML)
+        // Add to the existing HTML in the content element
+        contentElement.innerHTML += fishHTML
+        
+    }
+
+    
 }
