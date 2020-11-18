@@ -24,6 +24,33 @@ const fishCollection = [
         length: "5 feet, 1 inch",
         location: "Disney",
         diet: "Cake"
+    },
+
+    {
+        image: "Nemo.jpeg",
+        name: "Nemo",
+        species: "Clownfish",
+        length: "3 inches",
+        location: "Unknown - He is lost",
+        diet: "Algea"
+    },
+
+    {
+        image: "Dory.jpeg",
+        name: "Dory",
+        species: "Royal Blue Tang",
+        length: "5 inches",
+        location: "The Great Barrier Reef",
+        diet: "Algea"
+    },
+
+    {
+        image: "Marlin.jpeg",
+        name: "Marlin",
+        species: "Clownfish",
+        length: "4 inches",
+        location: "The Great Barrier Reef",
+        diet: "Algea"
     }
 ]
 
