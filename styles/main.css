@@ -48,10 +48,10 @@ h2 {
 .container--left {
     flex: 75%;
 }
-
-.body {
+            
+/* .body {
     font-family: ;
-}
+} */
 
 .container--right {
     flex: 25%;
