@@ -84,28 +84,44 @@ h2 {
     font-size: larger;
 }
 
+.fish card {
+    max-width: 10em;
+}
+
 .quotes {
     /* border: 5px dotted #01233f; */
+    display: flex;
+    /* flex-direction: row; */
     margin: 0px -1000px 0px -100px;
-    padding: 100px;
-    justify-content: center;
+    /* justify-content: center; */
     background-color: lightblue;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .quote {
     display: flex;
     /* justify-content: center; */
     flex-direction: column; 
-    padding-left: 100px;
-    font-size: 48px;
-    
+    font-size: 36px;
+    border: 2px dotted white;
+    padding: 2em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    min-width: 10em;
+    max-width: 15em;
 }
 
 .locations {
     /* border: 5px dotted aqua; */
     display: flex;
-    margin: 5px;
-    justify-content: space-between;
+    flex-direction: row;
+    /* margin: 5px; */
+    justify-content: space-evenly;
+    /* max-width: 100em; */
+    flex-wrap: wrap;
 }
 
 .tankTips {
@@ -126,6 +142,7 @@ h2 {
     padding: 10px;
     justify-content: center;
     background-color: white;
+    max-width: 25em;
 }
 
 .locations_header {
