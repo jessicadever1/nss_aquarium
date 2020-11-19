@@ -76,16 +76,35 @@ const fishCollection = [
 // the solider fish are ${soldierFish},
 //  and the unworthy fish are ${unworthyFish}`)
 
-    const mostHolyFish = () => {
+  export  const mostHolyFish = () => {
         const holyFish = []
 
         for (const fish of fishCollection) {
             if (`${fish.length}` % 3 === 0) {
-                holyFish.push(fish.name) 
+                holyFish.push(fish) 
             }
         }
         return holyFish
     }
 
-const returnValueOfMostHoly = mostHolyFish()
-console.log(returnValueOfMostHoly);
+    export  const soldier = () => {
+        const soldierFish = []
+
+        for (const fish of fishCollection) {
+            if (`${fish.length}` % 5 === 0 && `${fish.length}` % 3 !== 0) {
+                soldierFish.push(fish) 
+            }
+        }
+        return soldierFish
+    }
+
+    export const unworthyFish = () => {
+        const leftovers = []
+
+        for (const fish of fishCollection) { 
+            if (`${fish.length}` % 3 !== 0 && `${fish.length}` % 5 !== 0) {
+                leftovers.push(fish)
+            }
+        }
+        return leftovers
+    }
